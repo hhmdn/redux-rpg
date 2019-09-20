@@ -1,0 +1,55 @@
+.game {
+	width: 640px;
+	height: 640px;
+	background: black;;
+	overflow: hidden;
+  z-index: 99;
+}
+
+.tileset {
+  width: 1280px;
+  height: 1280px;
+  background: white;
+  overflow: hidden;
+  position: relative;
+}
+
+.overlayWindow {
+  width: 640px;
+  height: 640px;
+  overflow: hidden;
+  z-index: 99;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.overlay {
+  width: 1280px;
+  height: 1280px;
+  position: relative;
+}
+
+.character {
+	width: 48px;
+	height: 48px;
+	background: url('../../../assets/images/player.png') no-repeat left top;
+	background-position: -48px 0px;
+  margin-left: -16px;
+}
+
+ .frontRight { background-position: 0px 0px; }
+ .frontStand { background-position: -48px 0px; }
+ .frontLeft { background-position: -96px 0px; }
+ 
+ .leftRight { background-position: 0px -48px; }
+ .leftStand { background-position: -48px -48px; }
+ .leftLeft { background-position: -96px -48px; }
+ 
+ .rightRight { background-position: -96px -96px; }
+ .rightStand { background-position: -48px -96px; }
+ .rightLeft { background-position: -0px -96px; }
+ 
+ .backRight { background-position: 0px -144px; }
+ .backStand { background-position: -48px -144px; }
+ .backLeft { background-position: -96px -144px; }
