@@ -9,8 +9,8 @@ $ npm i
 
 ```
 $ npm start
-
+```
 
 ## Screenshot
 
-https://imgur.com/0juZkyd
+https://imgur.com/a/pJd8SdK
